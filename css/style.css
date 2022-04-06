@@ -1,0 +1,92 @@
+.container {
+    max-width: 1280px;
+    max-height: 720px;
+    margin: 0 auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-color: #121214;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+    height: 68px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 32px;
+    font-weight: bold
+}
+
+.perfis {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+p {
+    color: #9C9C9C;
+}
+
+img {
+    overflow: hidden;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    margin: 13px;
+    overflow: hidden;
+}
+
+.user img {
+    width: 160px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.user:hover img {
+    transform: scale(1.1);
+}
+
+.user:hover {
+    border: 2px solid white;
+}
+
+.user:hover {
+    color: white
+}
+
+.gerenciar {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.gerenciar button {
+    color: white;
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-size: 17px;
+    transition: background linear 0.4s;
+}
+
+.gerenciar button:hover {
+    background: rgba(256, 256, 256, 1);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
